@@ -30,7 +30,7 @@ resource "service" "vault_ui" {
 }
 
 resource "editor" "code" {
-  title = "Visual Studio Code"
+  title = "Visual Studio Code 1"
 
   extensions = [
     "golang.go",
