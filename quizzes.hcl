@@ -9,7 +9,7 @@ resource "quiz" "france" {
 }
 
 resource "text_answer_question" "capital_france" {
-	question = "What is the capital of France? Oui oui"
+	question = "What is the capital of France?"
 	answer ="Paris"
 	hints = [
     "They host the olympics in 2024",
